@@ -1,7 +1,7 @@
 # Личный проект «Шесть городов»
 
 * Студент: [annapetrova.](https://up.htmlacademy.ru/univer-js3/5/user/2574809).
-* Наставник: `Неизвестно`.
+* Наставник: [Глеб Клецков](https://htmlacademy.ru/profile/id1487865).
 
 ---
 
