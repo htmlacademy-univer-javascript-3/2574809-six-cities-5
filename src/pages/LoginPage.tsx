@@ -1,17 +1,17 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 
 type LoginPropsType = {
-  handleLogin: () => void
+  handleLogin: () => void;
 }
 export const LoginPage = (props: LoginPropsType) => {
 
   const navigate = useNavigate();
 
   const login = () => {
-    props.handleLogin;
-    navigate('/')
+    props.handleLogin();
+    navigate('/');
 
-  }
+  };
 
   return (
     <div className="page page--gray page--login">
@@ -32,7 +32,7 @@ export const LoginPage = (props: LoginPropsType) => {
           </div>
         </div>
       </header>
-  
+
       <main className="page__main page__main--login">
         <div className="page__login-container container">
           <section className="login">
@@ -74,5 +74,5 @@ export const LoginPage = (props: LoginPropsType) => {
       </main>
     </div>
   );
-  
-}
+
+};

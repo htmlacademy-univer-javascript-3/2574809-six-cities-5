@@ -5,7 +5,7 @@ type UserData = {
     email?: string;
     avatarUrl?: string;
   };
-  
+
 type UserDataContext = {
     user: UserData;
     logout: () => void;
@@ -29,9 +29,9 @@ export const UserContextProvider = ({ children }: {children: JSX.Element}) => {
 
   const logout = () => setUserData(defaultUserDataValue);
   const login: UserDataContext['login'] = () => {
-      setUserData({
-        logged: true
-      });
+    setUserData({
+      logged: true
+    });
   };
 
   const contextValue = useMemo(
